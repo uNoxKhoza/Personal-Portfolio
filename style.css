@@ -65,6 +65,7 @@ p {
     color: var(--primary-color);
     text-align: center;
     display: block;
+    background-color: aqua;
 }
 
 
@@ -84,7 +85,16 @@ p {
     font-size: 28px;
     text-decoration: none;
 }
+.mobile-link {
+    display:flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+}
+
 
 .email-link:hover {
     text-decoration: underline;
+    background-color: aqua;
 }
